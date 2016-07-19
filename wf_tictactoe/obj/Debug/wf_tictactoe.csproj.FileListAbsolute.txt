@@ -1,0 +1,9 @@
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\bin\Debug\wf_tictactoe.exe.config
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\bin\Debug\wf_tictactoe.exe
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\bin\Debug\wf_tictactoe.pdb
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\obj\Debug\wf_tictactoe.csprojResolveAssemblyReference.cache
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\obj\Debug\wf_tictactoe.Properties.Resources.resources
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\obj\Debug\wf_tictactoe.csproj.GenerateResource.Cache
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\obj\Debug\wf_tictactoe.exe
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\obj\Debug\wf_tictactoe.pdb
+c:\users\lorbennett\documents\visual studio 2015\Projects\wf_tictactoe\wf_tictactoe\obj\Debug\wf_tictactoe.Form1.resources
