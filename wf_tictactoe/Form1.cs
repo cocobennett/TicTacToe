@@ -90,7 +90,8 @@ namespace wf_tictactoe
                 winner = true;
             }
 
-
+            object o = new Object();
+            EventArgs e = new EventArgs();
 
             if (winner)
             {
@@ -107,6 +108,8 @@ namespace wf_tictactoe
                     xWinCount.Text = (Int32.Parse(xWinCount.Text) + 1).ToString();
                 }
                 MessageBox.Show(name + " wins!", "Yay!");
+                disableButtons();
+                newGameToolStripMenuItem_Click(o,e);
             }
             else
             {
@@ -114,6 +117,8 @@ namespace wf_tictactoe
                 {
                     drawCount.Text = (Int32.Parse(drawCount.Text) + 1).ToString();
                     MessageBox.Show("It was a draw", "Oh!");
+                    disableButtons();
+                    newGameToolStripMenuItem_Click(o, e);
                 }
             }
 
@@ -121,14 +126,17 @@ namespace wf_tictactoe
 
         private void disableButtons()
         {
-            try
+         
+            foreach (Control c in Controls)
             {
-                foreach (Control c in Controls)
+                try
                 {
                     Button b = (Button)c;
                     b.Enabled = false;
                 }
-            } catch { }
+                catch { }
+            }
+            
         }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
